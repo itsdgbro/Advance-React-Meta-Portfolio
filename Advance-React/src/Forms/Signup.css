@@ -1,0 +1,26 @@
+.signup{
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+}
+
+.input-form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+    max-width: 300px;
+    min-width: 300px;
+}
+
+.input-form > input:focus,select:focus {
+    border: 2px solid #646cff; /* Add a red border when focused */
+    outline: none; /* Remove the default outline */
+    border-radius: 5px;
+}
+
+sup, .error{
+    color: red;
+    font-size: small;
+}
